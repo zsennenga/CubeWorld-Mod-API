@@ -1,10 +1,8 @@
 CubeWorld-Mod-API
 =================
 
-This is uh
+This is a Mod API for the game Cube World. It uses DLL injection and memory editing to get Cube World to load 
+plugin DLLs and then execute user code at specified "events" (such as npcInteract, playerJump, and so on).
 
-Not really done yet.
-
-It "works" but you're going to have to figure it out yourself.
-
-More to come later.
+Plugins interact with entities, such as "Player" that mirror assembly values and allow plugin developers to modify
+properties of the game world without having to work with asm.
